@@ -1,0 +1,54 @@
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+*{
+    margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+
+header{
+  height: 70px;
+  width: 100%;
+  background-color: rgb(198, 59, 9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a{
+  color: white;
+  display: flex;
+  font-size: 20px;
+  text-decoration: none;
+}
+main{
+  height: 550px;
+  width: 100%;
+  background-color: rgb(229, 228, 226);
+  margin-top: 0%;
+  /* text-align: center; */
+  box-shadow: 2px 2px 5px gray;
+display: flex;
+justify-content: center;
+/* align-items: center; */
+padding-top: 10px;
+}
+
+#registration-done-message{
+  font-size: 23px;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+main #welcome-message{
+  color: rgb(0, 0, 0);
+}
