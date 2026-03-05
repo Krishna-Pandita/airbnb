@@ -33,9 +33,10 @@ main{
   /* text-align: center; */
   box-shadow: 2px 2px 5px gray;
 display: flex;
-justify-content: center;
+/* justify-content: center; */
 /* align-items: center; */
 padding-top: 10px;
+padding-left: 55px;
 }
 
 #registration-done-message{
@@ -49,6 +50,42 @@ a{
   color: black;
 }
 
-main #welcome-message{
-  color: rgb(0, 0, 0);
+ #welcome-message{
+color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style:circle;
+  padding: 0;
+}
+
+li h3{
+  /* text-align: center; */
+  display: block;
+  /* margin-bottom: 10px; */
+  
+padding-top: 12px;
+}
+
+h1 {
+  display: inline;
+}
+
+#error-message{
+  display: flex;
+  justify-content: center;
+  font: 20px;
+  color: black;
+}
+
+
+#error-message{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: black;
+  padding-top: 50px;
+  font-weight: bold;
 }
